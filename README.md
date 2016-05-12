@@ -1,7 +1,8 @@
 # Ember to Cordova
 
 This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+A simple ember project done in order to port it to cordova. The blog post titled,
+[Port an Ember App to Cordova](https://hamzeen.wordpress.com/2016/04/27/ember-to-cordova/) refers to this repo.
 
 ## Prerequisites
 
