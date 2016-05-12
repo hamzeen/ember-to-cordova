@@ -1,0 +1,21 @@
+
+<section class="dark">
+<h3 style="margin-left:auto;margin-right:auto;text-align:middle">{{toCamelCase "nigam"}}'s Contacts</h3>
+
+{{#each model as |rental index|}}
+  <div style="margin-top:20px;padding-top:12px;width:60%;margin-left:auto;margin-right:auto;background-color:rgba(12,25,20,0.3);">
+    <h3>#{{increment index}}. {{rental.title}}</h3>
+
+      <p text-align="right">
+        1. Owner: {{rental.owner}}
+            <img height="100px" src="{{rental.image}}" align="left" /><br/>
+        2. Type: {{rental.type}}</p>
+      <p text-align="right">
+        3. Location: {{rental.city}}<br/>
+        4. Number of bedrooms: {{rental.bedrooms}}<br/><br/></p>
+
+  </div>
+{{/each}}
+</section>
+
+{{outlet}}
